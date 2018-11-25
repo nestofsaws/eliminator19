@@ -12,7 +12,8 @@
 		<div class="col pb-5" id="content-section">
 			@include('includes.messages')
 			@yield('content')			
-		</div>	
+		</div>
+		@include('includes.rules')	
 	</div>
 	@include('includes.pagefooter')	
 	<!--END CONTENT WRAPPERS-->	
